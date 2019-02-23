@@ -54,13 +54,11 @@ h2 {
 #london {
     background-color: blue;
     border-radius: 10% 30% 50% 70%;
-    animation-name: londonColorChange;
 }
 
 #paris {
     background-color: yellow;
     border-radius: 10% 30% 50% 70%;
-    animation-name: parisColorChange;
 }
 #newyork {
     background-color: red;
@@ -87,7 +85,7 @@ h2 {
 }
 .londonColorChange {
 
-  animation-name: newyorkColorChange;
+  animation-name: londonColorChange;
   animation-duration: 50s;
 
 }
@@ -105,7 +103,7 @@ h2 {
   100%  {background-color: orange;}
 }
 .parisColorChange {
-  animation-name: newyorkColorChange;
+  animation-name: parisColorChange;
   animation-duration: 50s;
 }
 @keyframes parisColorChange {
@@ -121,18 +119,50 @@ h2 {
   100% {background-color: purple;}
 }
 
-.topDown {
+.topDownxNY {
   position: relative;
-  animation-name: topDownx;
+  animation-name: topDownxNY;
   animation-duration: 21s;
 }
-@keyframes topDownx {
+@keyframes topDownxNY {
   0%   {left:0px; top:0px;}
-  /*
-  25%  {background-color:yellow; left:200px; top:0px;}
 
-  50%  {background-color:blue; left:200px; top:200px;}
-  */
+  25%  { left:200px; top:0px;}
+
+  50%  { left:200px; top:200px;}
+
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+.topDownxLondon {
+  position: relative;
+  animation-name: topDownxLondon;
+  animation-duration: 21s;
+}
+@keyframes topDownxLondon {
+  0%   {left:0px; top:0px;}
+
+  25%  { left:200px; top:0px;}
+
+  50%  { left:200px; top:200px;}
+
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+.topDownxParis {
+  position: relative;
+  animation-name: topDownxParis;
+  animation-duration: 21s;
+}
+@keyframes topDownxParis {
+  0%   {left:0px; top:0px;}
+
+  25%  { left:200px; top:0px;}
+
+  50%  { left:200px; top:200px;}
+
   75%  {left:0px; top:200px;}
   100% {left:0px; top:0px;}
 }
