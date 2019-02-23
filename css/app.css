@@ -13,7 +13,7 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
-    background-color: yellow;
+    background-color: #5ED77E;
 }
 
 .container {
@@ -52,12 +52,12 @@ h2 {
 }
 
 #london {
-    background-color: #03a9f4;
+    background-color: blue;
 }
 
 #paris {
-    background-color: #d32f2f;
+    background-color: yellow;
 }
 #newyork {
-    background-color: #d32f2f;
+    background-color: red;
 }
