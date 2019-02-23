@@ -54,13 +54,69 @@ h2 {
 #london {
     background-color: blue;
     border-radius: 10% 30% 50% 70%;
+    animation-name: londonColorChange;
 }
 
 #paris {
     background-color: yellow;
     border-radius: 10% 30% 50% 70%;
+    animation-name: parisColorChange;
 }
 #newyork {
     background-color: red;
     border-radius: 10% 30% 50% 70%;
+
+}
+.newyorkColorChange {
+  animation-name: newyorkColorChange;
+  animation-duration: 50s;
+}
+@keyframes newyorkColorChange {
+  /*
+  from { background-color: red;}
+  to { background-color: blue;}
+  */
+  0% {background-color: purple;}
+  20%   {background-color: red;}
+  40% {background-color: green;}
+  60% {background-color: blue;}
+  80%  {background-color: orange;}
+  10%  {background-color: yellow;}
+
+
+}
+.londonColorChange {
+
+  animation-name: newyorkColorChange;
+  animation-duration: 50s;
+
+}
+@keyframes londonColorChange {
+  /*
+  from { background-color: blue;}
+  to { background-color: yellow;}
+  */
+
+  0%  {background-color: yellow;}
+  20% {background-color: blue;}
+  40% {background-color: green;}
+  60% {background-color: purple;}
+  80%   {background-color: red;}
+  100%  {background-color: orange;}
+}
+.parisColorChange {
+  animation-name: newyorkColorChange;
+  animation-duration: 50s;
+}
+@keyframes parisColorChange {
+  /*
+  from { background-color: yellow;}
+  to { background-color: green;}
+  */
+  0% {background-color: blue;}
+  20%  {background-color: yellow;}
+  40%  {background-color: orange;}
+  60% {background-color: green;}
+  80%   {background-color: red;}
+  100% {background-color: purple;}
 }
