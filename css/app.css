@@ -53,11 +53,14 @@ h2 {
 
 #london {
     background-color: blue;
+    border-radius: 10% 30% 50% 70%;
 }
 
 #paris {
     background-color: yellow;
+    border-radius: 10% 30% 50% 70%;
 }
 #newyork {
     background-color: red;
+    border-radius: 10% 30% 50% 70%;
 }
