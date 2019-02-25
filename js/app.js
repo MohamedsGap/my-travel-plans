@@ -12,6 +12,6 @@ function moveParis(){
   parisHere.classList.toggle('topDownxParis');
 }
 
-londonHere.addEventListener('mouseover', moveLondon);
-dest.addEventListener('mouseover',move);
-parisHere.addEventListener('mouseover', moveParis);
+londonHere.addEventListener('click', moveLondon);
+dest.addEventListener('click',move);
+parisHere.addEventListener('click', moveParis);
